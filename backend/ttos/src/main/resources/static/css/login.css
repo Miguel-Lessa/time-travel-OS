@@ -1,0 +1,70 @@
+
+body {
+    background-color: #3a6ea7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.login-container {
+    background-color: #d5d0c9; 
+    padding: 20px;
+    border-radius: 0px;
+    box-shadow: #333 0px 10px 20px;
+    width: 600px;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1 {
+    background-color: #3a6ea7;
+    color: white;
+    text-align: left;
+    font-size: large;
+    padding: 10px;
+    margin: 0;
+    width: 100%;
+}
+
+h2 {
+    background-color: #3a6ea7;
+    color: black;
+    text-align: left;
+    font-size: large;
+    padding: 10px;
+    margin: 0;
+}
+
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #879097;
+    border-radius: 0px;
+}
+
+button {
+    width: 100%;
+    padding: 5px;
+    background-color: #a3adb4; 
+    color: black;
+    border: black;
+    border-radius: 0px;
+    cursor: pointer;
+    box-shadow: #333 0px;
+}
+
+button:hover {
+    background-color: #676e73; 
+}
+
+.bird-image {
+    display: block;
+    margin: 10px auto;
+    max-width: 100%;
+    height: auto;
+}
