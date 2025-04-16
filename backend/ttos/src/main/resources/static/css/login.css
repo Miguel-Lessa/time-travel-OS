@@ -10,18 +10,23 @@ body {
 }
 
 .login-container {
-    background-color: #d5d0c9; 
-    padding: 20px;
-    border-radius: 0px;
-    box-shadow: #333 0px 10px 20px;
-    width: 600px;
+    background-color: #d5d0c9;
+    padding: 0 0 15px 0; 
+    border-radius: 5px;
+    box-shadow: 0px 10px 20px #333;
+    width: 800px;
+    display: flex;
     flex-direction: column;
     align-items: center;
+    overflow: hidden;
 }
 
+
+
 h1 {
-    background-color: #3a6ea7;
+    background: linear-gradient(to right, #3a6ea7, white); 
     color: white;
+    text-padding: 10px;
     text-align: left;
     font-size: large;
     padding: 10px;
@@ -30,41 +35,48 @@ h1 {
 }
 
 h2 {
-    background-color: #3a6ea7;
+    background: linear-gradient(to right, #3a6ea7, white); 
     color: black;
     text-align: left;
     font-size: large;
     padding: 10px;
     margin: 0;
+    width: 100%;
 }
+
+
 
 
 input {
     width: 100%;
     padding: 10px;
-    margin: 10px 0;
+    margin: 5px 0;
     border: 1px solid #879097;
-    border-radius: 0px;
+    font-size: 16px;
+    box-sizing: border-box;
+}
+
+.button-container {
+    display: flex; /* Coloca os botões lado a lado */
+    justify-content: space-between; /* Adiciona espaço entre os botões */
+    gap: 10px; /* Espaçamento fixo entre os botões */
+    width: 100%; /* Garante que o contêiner ocupe toda a largura */
 }
 
 button {
-    width: 100%;
+    flex: 3;
     padding: 5px;
     background-color: #a3adb4; 
     color: black;
-    border: black;
-    border-radius: 0px;
+    border-bottom: 1px solid black;
+    border-top: 1px solid white;
+    border-radius: 1px;
     cursor: pointer;
     box-shadow: #333 0px;
+    text-align: center;
 }
 
 button:hover {
     background-color: #676e73; 
 }
 
-.bird-image {
-    display: block;
-    margin: 10px auto;
-    max-width: 100%;
-    height: auto;
-}
